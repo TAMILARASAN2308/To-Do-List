@@ -67,7 +67,7 @@ function TodoItems({ items, fetchItems }) {
     return (
         <>
             <section>
-                <div className="flex flex-col items-center cursor-pointer m-6 md:m-8 ">
+                <div className="flex flex-col items-center cursor-pointer m-8 ">
                     {items.map((item, index) => (
                         <div key={item._id} className="flex flex-1 items-center justify-between w-full mb-4">
                             {item.complete ? (
