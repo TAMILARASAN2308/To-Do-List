@@ -73,7 +73,7 @@ function TodoItems({ items, fetchItems }) {
                             {item.complete ? (
                                 <>
                                     {isUpdateClicked === index ? (
-                                        <div className="flex items-center gap-2">
+                                        <div className="flex items-center gap-2 mr-20">
                                         <input
                                             className="text-black border-2 border-slate-400 rounded-md h-8 md:h-9 max-w-[170px] md:min-w-[220px] px-2 md:px-4"
                                             type="text"
